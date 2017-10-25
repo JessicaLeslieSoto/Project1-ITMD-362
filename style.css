@@ -216,7 +216,7 @@ label{
     color: #48C9B0;
     text-align: center;
     font-size:30px;
-    text-shadow: 1px 1px black, 0 0 2px pink;
+    text-shadow: 0.063em 0.063em black, 0 0 0.125em pink;
 }
 
 /*.pic{
