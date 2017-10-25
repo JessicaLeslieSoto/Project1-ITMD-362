@@ -1,1 +1,3 @@
-function form(form) 
+function Validate() {
+	alert("Looks like you do this OFTEN")
+}
