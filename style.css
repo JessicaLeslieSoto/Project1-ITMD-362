@@ -216,3 +216,37 @@ label{
 body{
     background-image: url(https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425);
   }
+body{
+    background-image: url(https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425);
+  }
+
+@media screen and (min-width: 520px)
+{
+	body{
+		margin:auto;
+	}
+	label{ 
+		font-size:1.44em; /*1.44 * 16px = 23.04px */
+	}
+
+}
+
+@media screen and (min-width: 720px)
+{
+	#leftside{
+	width:40%;
+	float: left;
+	}
+	
+	#rightside{
+	width:40%;
+	float:right;
+	padding-top: 3px;
+	}
+	
+	#form{
+		display:flex;
+		flex-flow: row wrap;
+		justify-content:center;
+	}
+}
